@@ -1,0 +1,85 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+            background-color: blueviolet;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+#contenedor{
+    width: 1100px;
+    margin: 0px auto;
+    border: 1px solid white ;
+}
+
+header{
+    background: red;
+    height: 100px;
+    width: 100%;
+    text-align: center; /*Para centrar de manera Horizontal*/
+    line-height: 100px; /*Para centrar de manera vertical*/
+    border: 2px solid white;
+}
+
+nav{
+    background: lightblue;
+    height: 50px;
+    margin: 10px;
+    border-bottom: 1px solid black;
+    
+}
+
+nav ul li{
+    float: left; /*hace que los elementos de la lista que estan uno debajo del otro se pongan en fila y se alineen a mano izquierda*/
+    list-style: none; /* borrar formato que tiene como lista*/
+    margin: 10px; /*El margin no es mas que un espacio entre los elementos */
+    line-height: 30px;
+}
+
+.clearFix{
+    clear: both; /*Trucaso: Lo que hace es que todo lo que esté por debajo de la etiqueta con la clase clearFix se mantenga siempre debajo y no se entresolape con la otra informacion*/
+}
+
+#contenido{
+    float: left;
+    width: calc(80% - 80px);
+    min-height: 500px;
+    background: orange;
+    padding: 40px;
+} 
+
+.article{
+    color: white;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    border-bottom: 1px solid #eee;
+    padding-bottom: 10px;
+}
+
+.article:first-child{
+    padding-top: 10px;
+    border-top: 1px solid #eee;
+}
+
+.article h2{
+    font-size: 30px;
+}
+
+aside{
+    float: left;
+    width: calc(20%  - 20px);
+    background: yellow;
+    min-height: 500px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 20px;
+}
+
+footer{
+    background: black;
+    color: aliceblue;
+    text-align: center;
+    height: 50px;
+    line-height: 50px;
+}
