@@ -1,0 +1,83 @@
+body{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-image: url(fondoPageUW.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+.seccionPrincipal__cuadroLogin{
+    background-color: rgb(135, 182, 236, .3);
+    color: white;
+    width: 300px;
+    position: absolute;
+    margin: 0px auto; /*Centra en la pagina*/
+    line-height: 60px; /*Para centrar de manera vertical*/
+    box-shadow: 0px 0px 5px black;
+    top: 30%;
+    left: 47%;
+    padding: 20px;    
+    border-radius: 20px;
+}
+
+
+.cuadroLogin__tituloLogin{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: white;
+    text-align: center;
+    font-size: 30px;    
+}
+
+.cuadroLogin__usuario{
+    border-radius: 10px;
+    width: 220px;
+    margin: 0px auto;
+    padding: 10px;
+    margin-left: 30px;
+}
+
+.cuadroLogin__clave{
+    border-radius: 10px;
+    width: 220px;
+    margin: 0px auto;
+    padding: 10px;
+    margin-left: 30px;
+}
+
+.cuadroLogin__recordar{
+    font-size: 10px;
+    padding: 10px;
+    margin-left: 35px;
+}
+
+.cuadroLogin__olvidarClave{
+    font-size: 10px;
+    padding: 10px;
+    margin-left: 3px;
+}
+
+.cuadroLogin__btnLogin{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: blueviolet;
+    font-size: 20px;
+    font-weight: bolder;
+    width: 220px;
+    margin: 0px auto;
+    padding: 10px;
+    margin-left: 42px;
+    border-bottom: 50px;
+    border-radius: 10px;
+}
+.cuadroLogin__regitrarse{
+    color: blueviolet;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    font-weight: bolder;
+    width: 220px;
+    margin: 0px auto;
+    padding: 10px;
+    margin-left: 42px;
+    border-bottom: 50px;
+    border-radius: 10px;
+}
